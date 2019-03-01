@@ -264,7 +264,7 @@ html {
 @media only screen and (max-width: 768px) and (orientation : portrait){
 
   .panels {
-    min-height: 75vh;
+    min-height: 100vh;
   }
   .panel.panel1{
     display:none;
@@ -275,6 +275,16 @@ html {
   .panel.panel5{
     display:none;
   }
+
+  .panel p:nth-child(2) {
+    font-size: 3em;
+  }
+
+  .panel.open {
+      flex:5;
+    font-size: 20px;
+  }
+
 
   .name{
    font-size: 1.5rem;
@@ -393,4 +403,21 @@ height:100%;
   
   }
 
+}
+
+@media only screen and (max-width: 768px) and (orientation : portrait){
+  .sub-name {
+    font-size: 1rem;
+    margin-left: 3.5rem;
+    margin-top: 100px;
+}
+
+.name {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+
+.btn {
+  margin-left: 140px;
+}
 }
