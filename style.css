@@ -3,7 +3,7 @@ html {
     font-family: 'helvetica neue';
     font-size: 20px;
     font-weight: 200;
-    background: #ffc600;
+    background: #3a3937;
   }
   body {
     margin: 0;
@@ -183,7 +183,6 @@ html {
 }  
 
 .sub-name{
-  width:100%;
  position:absolute;
   display:flex;
     margin-left:13rem;
@@ -428,6 +427,33 @@ html {
   font-family: 'Lobster', cursive;
 }
 
+}
+
+@media only screen and (max-width: 667px) and (orientation: landscape){
+  .sub-title {
+    margin-left: 8rem;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+}
+
+.title {
+  padding-top: 2rem;
+  font-size: 2rem;
+}
+
+.btn {
+  margin-left: 260px;
+}
+
+.name {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-left: 4rem;
+}
+
+.sub-name {
+  margin-left: 3.5rem;
+}
 }
 
 @media only screen and (max-width: 380px) and (orientation : portrait){
