@@ -460,8 +460,12 @@ html {
 
   .sub-name {
     font-size: 1rem;
-    margin-left: auto;
+    margin-left: 2.75rem;
     margin-top: 100px;
+  }
+
+  .sub-title{
+    margin-left:3.75rem;
   }
 
   .btn {
