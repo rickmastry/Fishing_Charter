@@ -88,10 +88,10 @@ html {
       border-top: 3px solid black;
   }
 
-  body.loaded {
+  /*body.loaded {
     opacity: 1;
     transition: 5s opacity;
-  }
+  }*/
 
   .headline{
     position:relative;

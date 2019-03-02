@@ -1,6 +1,4 @@
-window.onload = function() {
-    document.body.className += ' loaded';
-  };
+
 
 
 
@@ -35,7 +33,7 @@ function playVideo(){
 
 function pauseVideo(){
     mp4.pause();
-}
+};
 
 function playPause(){
     var change =document.getElementById('btn');
@@ -46,7 +44,11 @@ function playPause(){
         change.innerHTML = "Play Video";
         pauseVideo();
     }
-}
+};
+
+window.onload = function() {
+    document.body.className += ' loaded';
+  };
 
 
 
