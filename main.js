@@ -46,9 +46,16 @@ function playPause(){
     }
 };
 
-window.onload = function() {
-    document.body.className += ' loaded';
-  };
+function zoom(){
+    window.onload = function() {
+        document.body.className += ' loaded';
+      };
+
+}
+
+zoom();
+
+
 
 
 
