@@ -77,7 +77,7 @@ html {
   }
 
   .panel.open {
-      flex:5;
+    flex:5;
     font-size: 40px;
   }
 
@@ -272,6 +272,7 @@ html {
   }
 
   .panel.open {
+
     font-size: 20px;
   }
 
