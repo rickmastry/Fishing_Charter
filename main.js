@@ -13,7 +13,7 @@ function toggleOpen(){
 };
 
 function toggleActive(e){
-    if(e.propertyName.includes('flex')){
+    if(e.propertyName.includes('flex-grow', 'flex')){
     this.classList.toggle('open-active');
     }
     
