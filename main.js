@@ -1,5 +1,4 @@
 
-function panels(){
 
 
 
@@ -20,10 +19,6 @@ function toggleActive(e){
 
 
 };
-
-
-
-}panels();
 
 
 
