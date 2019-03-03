@@ -1,5 +1,5 @@
 
-window.onload = function(){
+function panels(){
 
 
 
@@ -23,7 +23,7 @@ function toggleActive(e){
 
 
 
-}();
+}panels();
 
 
 
