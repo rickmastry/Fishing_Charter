@@ -9,7 +9,7 @@ function toggleOpen(){
 
 function toggleActive(e){
 
-  if(e.propertyName.includes('flex')){
+  if(e.propertyName.includes('panel')){
      this.classList.toggle('open-active');
     }
 
